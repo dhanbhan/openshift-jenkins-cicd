@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-	@GetMapping("/hello")
+	@GetMapping("/newpath")
 	public String ping() {
-		return "Openshift Pipe Line Testing";
+		return "Set new path for app root - Dhananjay";
 	}
 }
